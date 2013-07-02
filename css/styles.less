@@ -1,0 +1,32 @@
+@dGrey:		#333333;
+@black:		#000000;
+@lBlue:		#00b6fc;
+
+// Primary Elements
+body {
+	background: url(../images/clock/debut_dark.png) repeat 0 0 @black;
+	color:@lBlue;
+}
+//.title {color:@dGrey;}
+
+// Styled Elements
+
+// Positioned Elements
+.alarm,
+.garage,
+.climate,
+.wake,
+.days {
+	.title {font-weight:bold;}
+}
+	.alarm,
+	.garage,
+	.climate {text-align:center;}
+.clock {text-align:center;}
+.days {	
+	.day {
+		display:inline-block;
+		width:14%;
+		text-align:center;
+	}
+}
